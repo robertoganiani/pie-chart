@@ -10,10 +10,6 @@ const margin = { top: 20, right: 20, bottom: 20, left: 20 },
   height = 720,
   radius = width / 2
 
-const divTooltip = d3.select('body')
-  .append('div')
-  .attr('class', 'tool-tip')
-
 const colorScale = d3.scaleOrdinal(d3.schemeDark2)
 
 const arc = d3.arc()
